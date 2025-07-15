@@ -39,5 +39,10 @@ return [
     */
 
     'compiled' => realpath(storage_path('framework/views')),
+    'paths' => [
+    resource_path('themes/ecome'),
+    resource_path('views'),
+    ],
+
 
 ];

@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     /*
     |--------------------------------------------------------------------------
     | Shop Theme Configuration
@@ -10,9 +11,16 @@ return [
     |
     */
 
-    'shop-default' => 'default',
+    // 👑 MarketPro teması artık aktif
+    'shop-default' => 'marketpro',
 
     'shop' => [
+        'marketpro' => [
+            'name'        => 'ecome',
+            'assets_path' => 'public/ecome/',
+            'views_path'  => 'resources/views/ecome',
+        ],
+
         'default' => [
             'name'        => 'Default',
             'assets_path' => 'public/themes/shop/default',
