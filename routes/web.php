@@ -1,6 +1,11 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('ecome.home   ');
-})->name('shop.home.index');
+    return view('home');
+})->name('home');
+
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
